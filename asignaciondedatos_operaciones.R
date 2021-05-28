@@ -113,3 +113,37 @@ a <- 4
 
 a %% 2 == 0
 
+
+###############################################################
+################### CONDICIONALES #####################
+###############################################################
+###############################################################
+
+##edad de los millenials 
+
+edadinicial <- 25
+edadfinal <- 35
+
+#edad de la persona?
+edadpersona <- 15
+
+#haciendo la pregunta de la manera logica
+
+(edadinicial <= edadpersona) && (edadfinal >= edadpersona)
+
+#si la respuesta anterior es FALSE, entonces la persona no es millenial,
+#en caso contrario la persona si es millenial.
+
+##############################################################
+
+#primer condicional IF
+
+#si la persona esta entre los 25 y 35 años entonces es millenial
+
+#Ejemplo 1 
+edadpersona <- 15
+if((edadinicial <= edadpersona) && (edadfinal >= edadpersona)){ print("la persona es millenial")}
+
+#Ejemplo 2 
+edadpersona <- 30
+if((edadinicial <= edadpersona) && (edadfinal >= edadpersona)){ print("la persona es millenial")}
