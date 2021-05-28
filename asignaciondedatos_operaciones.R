@@ -7,7 +7,7 @@
 # creando la variable de nombre hola
 
 hola <- "pastito"
-hola <- "oveja"
+hola <- "oveja"+
 
 variable1 <- "hola"
 12312354423
