@@ -147,3 +147,4 @@ if((edadinicial <= edadpersona) && (edadfinal >= edadpersona)){ print("la person
 #Ejemplo 2 
 edadpersona <- 30
 if((edadinicial <= edadpersona) && (edadfinal >= edadpersona)){ print("la persona es millenial")}
+
