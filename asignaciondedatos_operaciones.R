@@ -189,6 +189,12 @@ if(anioNacimiento < 1946 || anioNacimiento > 1964){
   print("esta persona si es baby boom")
 )
 
+#Silent generation (1928-1945)
+#Baby boom (1946-1964)
+#Generacion X (1965-1980)
+#Generacion Y (millenials) (1981-1996)
+#Generacion Z (1997-2015)
+
 
 ###### correccion propia a la pregunta 
 
@@ -212,4 +218,15 @@ if(anioNacimiento >= 1946 && anioNacimiento <= 1964){
 anioNacimiento>=1928 && anioNacimiento<=1945
 
 #con condicional if - else
+
+anioNacimiento<-1950
+anioNacimiento<-1970
+if(anioNacimiento >= 1946 && anioNacimiento <= 1964){
+  print("es baby boom")
+}else if(anioNacimiento>=1928 && anioNacimiento <= 1945){
+  print("es generacion silenciosa")
+}else{
+  print("no esta determinado")
+}
+
 
